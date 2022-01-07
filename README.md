@@ -1,2 +1,2 @@
-# my-portfplio-sample-site
+# my-portfplio
 Sample portfolio(Web development)
