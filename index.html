@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="site-main-wrapper">
+        <button class="hamburger"><img src="image/hamburger.png" alt=""></button>
+        <div class="mobile-nav">
+            <button class="close"><img src="image/close.png" alt=""></button>
+            <ul>
+                <li class="mobile-home"><a href="#Home">Home</a></li>
+                <li class="mobile-about"><a href="#about-me">About</a></li>
+                <li class="mobile-services"><a href="#services-me">Services</a></li>
+                <li class="mobile-clients"><a href="#client-me">Clients</a></li>
+                <li class="mobile-contact"><a href="#contact-me">Contact</a></li>
+            </ul>
+        </div>
+        <nav id="main-nav" class="flex items-center ">
+            <div class="left flex items-center">
+                <div class="logo">
+                    <img src="image/logo.png" alt="">
+                </div>
+                <div>
+                    <a href="#Home">Home</a>
+                    <a href="#about-me">About</a>
+                    <a href="#services-me">Services</a>
+                    <a href="#client-me">Clients</a>
+                    <a href="#contact-me">Contact</a>
+                </div>
+
+            </div>
+            <div class="right">
+                <a href="#contact-me"><button class="btn btn-primary">Contact</button></a>
+            </div>
+        </nav>
+        <div class="header-background" id="Home">
+            <header>
+                <div class="container">
+                    <div class="hero flex items-center justify-between">
+                        <div class="left flex-1 flex justifay-center">
+                            <img src="image/hero.png" alt="">
+                        </div>
+                        <div class="right flex-1">
+                            <h6>Rishav Jaiswal</h6>
+                            <h1>I'm an expert <br><span>Coder</span></h1>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores nam consequatur illo.
+                                Illo
+                                cupiditate mollitia, in dolores id pariatur excepturi commodi.</p>
+                            <div>
+                                <button class="btn btn-secondary">DOWNLOAD CV</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <section class="about" id="about-me">
+            <div class="container flex items-center inner-wrapper">
+                <div class="flex-1">
+                    <img class="about-me-img" src="image/Pic2.jpeg" alt="">
+                </div>
+                <div class="flex-1 about-center">
+                    <div>
+                        <h1>About <span>Me</span></h1>
+                        <h3>Hello! I'm Rishav Jaiswal</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis voluptas deserunt cum aut
+                            minima nesciunt, accusantium quod sed placeat unde odio hic. Impedit cum expedita, optio
+                            beatae
+                            nostrum ratione facere quaerat, excepturi, incidunt natus dicta quos nisi asperiores tenetur
+                            dolores Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, voluptatum.</p>
+                    </div>
+                    <div class="social">
+                        <a href="https://www.facebook.com/"><img src="Image/facebook.png" alt=""></a>
+                        <a href="https://www.instagram.com/"><img src="image/instagram.png" alt=""></a>
+                        <a href="https://www.linkedin.com/"><img src="Image/linkedin.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="services" id="services-me">
+            <div class="container">
+                <h1 class="section-heading"><span>Our</span> Services</h1>
+                <p>We provide would class responsive website for your business growth</p>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <img src="image/website-design.png" alt="">
+                        <h2>Web Design</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora, eaque vel!</p>
+                    </div>
+                    <div class="card">
+                        <img src="image/web-development.png" alt="">
+                        <h2>Web Development</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora, eaque vel!</p>
+                    </div>
+                    <div class="card">
+                        <img src="image/logo-design.png" alt="">
+                        <h2>Logo Design</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora, eaque vel!</p>
+                    </div>
+                    <div class="card">
+                        <img src="image/graphic-design.png" alt="">
+                        <h2>Graphic Design</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora, eaque vel!</p>
+                    </div>
+                    <div class="card">
+                        <img src="image/digital-marketing.png" alt="">
+                        <h2>Digital Marketing</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora, eaque vel!</p>
+                    </div>
+                    <div class="card">
+                        <img src="image/app-store.png" alt="">
+                        <h2>App Design</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora, eaque vel!</p>
+                    </div>
+                </div>
+        </section>
+
+        <div class="action-background">
+            <section class="call-to-action">
+                <h1>Available for Freelancing</h1>
+                <p>We provide would class responsive website for your business growth</p>
+                <button class="btn btn-primary">DOWNLOAD CV</button>
+            </section>
+        </div>
+
+        <section class="client" id="client-me">
+            <div class="container">
+                <h1 class="section-heading"><span>Our</span> Client</h1>
+                <p>We provide would class responsive website for your business growth</p>
+                <div class="slider">
+                    <div class="slide">
+                        <img src="image/Client-1.png" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet. Repellat
+                            aperiam nihil pariatur veniam sequi eius voluptates sunt quaerat suscipit. Necessitatibus.
+                        </p>
+                        <span>-Jyothi, ABC company</span>
+                    </div>
+                    <div class="slide">
+                        <img src="image/Client-2.png" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet. Repellat
+                            aperiam nihil pariatur veniam sequi eius voluptates sunt quaerat suscipit. Necessitatibus.
+                        </p>
+                        <span>-Priya dutta, DEF company</span>
+                    </div>
+                    <div class="slide">
+                        <img src="image/Client-3.png" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet. Repellat
+                            aperiam nihil pariatur veniam sequi eius voluptates sunt quaerat suscipit. Necessitatibus.
+                        </p>
+                        <span>-Sulina Roy, GHI company</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="contact" id="contact-me">
+            <div class="container">
+                <h1 class="section-heading">Contact <span>Us</span></h1>
+                <p>We provide would class responsive website for your business growth</p>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <img src="image/cell-phone.png" alt="">
+                        <h2>Call Us On</h2>
+                        <h6>+918594358447</h6>
+                    </div>
+                    <div class="card">
+                        <img src="image/email (1).png" alt="">
+                        <h2>Email Us At</h2>
+                        <h6>rishav.jaiswal@coder.com</h6>
+                    </div>
+                    <div class="card">
+                        <img src="image/location.png" alt="">
+                        <h2>Visit Office</h2>
+                        <h6>New Ashok Nagar, Delhi, India 846002</h6>
+                    </div>
+                </div>
+                <form action="submit-form-with-get">
+                    <div class=input-wrap>
+                        <input type="text" placeholder="Your Name *">
+                        <input type="email" placeholder="Your Email *">
+                    </div>
+                    <div class="input-wrap-2">
+                        <input type="text" placeholder="Your Subject...">
+                        <textarea name="" id="" cols="30" rows="6" placeholder="Your Message..."></textarea>
+                    </div>
+                    <div class="btn-wrapper">
+                        <button class="btn btn-primary">Send Message</button>
+                    </div>
+                </form>
+
+            </div>
+        </section>
+
+        <footer>
+            <img src="image/logo.png" alt="">
+            <div class="footer-social">
+                <a href="#"><img src="image/facebook.png" alt=""></a>
+                <a href="#"><img src="image/instagram.png" alt=""></a>
+                <a href="#"><img src="image/linkedin.png" alt=""></a>
+            </div>
+            <div>
+                <p> Copyright 2021 <span>&copy</span> Coder Template. All Right Reserved</p>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        let hamburger =  document.querySelector('.hamburger');
+        let close = document.querySelector('.close');
+        let mobileNav = document.querySelector('.mobile-nav');
+
+        let mobileHome = document.querySelector('.mobile-home');
+        let mobileAbout = document.querySelector('.mobile-about');
+        let mobileServices = document.querySelector('.mobile-services');
+        let mobileClients = document.querySelector('.mobile-clients');
+        let mobileContact = document.querySelector('.mobile-contact');
+
+
+            hamburger.addEventListener('click',function(){
+                mobileNav.classList.add('open');
+            });
+            
+            close.addEventListener('click',function(){
+                mobileNav.classList.remove('open');
+            });
+            
+            mobileHome.addEventListener('click',function(){
+                mobileNav.classList.remove('open');
+            });
+            mobileAbout.addEventListener('click',function(){
+                mobileNav.classList.remove('open');
+            });
+            mobileServices.addEventListener('click',function(){
+                mobileNav.classList.remove('open');
+            });
+            mobileClients.addEventListener('click',function(){
+                mobileNav.classList.remove('open');
+            });
+            mobileContact.addEventListener('click',function(){
+                mobileNav.classList.remove('open');
+            });
+    </script>
+</body>
+
+</html>
